@@ -25,6 +25,7 @@ https://www.vmware.com/products/workstation-pro.html
 https://www.parallels.com/products/desktop/
 https://www.virtualbox.org/
 https://code.visualstudio.com/
+https://chocolatey.org/
 ```
 # Requesting a feature
 
