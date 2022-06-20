@@ -18,7 +18,7 @@ https://gparted.org/
 https://atlasos.net/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
-https://chocolatey.org/
+https://git-scm.com/ (Portable)
 https://rufus.ie/
 https://www.balena.io/etcher/
 https://www.gitkraken.com/
