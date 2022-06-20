@@ -6,5 +6,5 @@
 4. Load install.wim
 5. Download and extract the necessary tools to the Setup directory. 
 6. Load our XML file
-7. Create ISO
+7. Hit apply and create ISO
 8. Success (Boot into ISO and test it)
