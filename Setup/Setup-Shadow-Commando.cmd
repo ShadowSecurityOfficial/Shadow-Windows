@@ -1,4 +1,5 @@
 @echo off
+
 goto check_Permissions
 
 :check_Permissions
@@ -10,9 +11,7 @@ goto check_Permissions
     ) else (
         echo Failure: Current permissions inadequate.
     )
-    
-    pause >nul
-    
+        
 set "IPADDRESS=8.8.8.8"
 
 :TestNetworkConnection
