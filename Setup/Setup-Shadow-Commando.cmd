@@ -1,4 +1,3 @@
-@rem ----[ This code block detects if the script is being running with admin PRIVILEGES If it isn't it pauses and then quits]-------
 echo OFF
 net session
 
