@@ -18,6 +18,7 @@ https://gparted.org/
 https://atlasos.net/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
+https://chocolatey.org/
 https://rufus.ie/
 https://www.balena.io/etcher/
 https://www.gitkraken.com/
@@ -25,7 +26,6 @@ https://www.vmware.com/products/workstation-pro.html
 https://www.parallels.com/products/desktop/
 https://www.virtualbox.org/
 https://code.visualstudio.com/
-https://chocolatey.org/
 ```
 # Requesting a feature
 
