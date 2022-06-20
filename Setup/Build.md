@@ -7,7 +7,7 @@
 5. Convert install.esd to install.wim if needed
 6. Load install.wim
 7. Download and extract the necessary tools to the Setup directory. (Git Portable)
-8. Load our XML file
+8. Load our XML file (if you get a error with loading the XMl file it is probably a issue with you following the steps or AtlasOS updated their ISO in that case I will update our XML File)
 9. Hit apply and create ISO
 10. Success (Boot into ISO and test it)
 
