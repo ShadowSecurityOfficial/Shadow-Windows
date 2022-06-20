@@ -1,6 +1,6 @@
 # Shadow-Windows
 
-Shadow-Windows is the most hi-tech ethical hacking Windows operating system. Shadow-Windows is a custom Windows operating system and is part of the larger ShadowSecuritySuite, Shadow-Windows allows you to get all your favorite hacking tools on Windows instantly by using our lightweight Windows install method.
+Shadow-Windows is the most hi-tech ethical hacking Windows operating system. Shadow-Windows is a custom Windows operating system and is part of the larger ShadowSecuritySuite, Shadow-Windows allows you to get all your favorite hacking tools on Windows instantly by using our lightweight Windows install method. Notice: you must have internet access for the install, if you do not the install will fail if you don't want to use internet access check out Shadow-Full.
 
 ㊙️ "The more silent you are, the more you can silence." ㊙️
 
