@@ -2,8 +2,6 @@
 echo OFF
 net session
 
-@echo ON
-
 set "IPADDRESS=8.8.8.8"
 
 :TestNetworkConnection
