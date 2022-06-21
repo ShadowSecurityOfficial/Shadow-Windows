@@ -1,6 +1,6 @@
 # How to build Shadow-Windows?
 
-1. Git clone our direcctory in %temp% Drive path)
+1. Git clone our direcctory)
 2. Grab latest AtlasOS (Security Updates ISO) and put in setup folder
 3. Extract AtlasOS ISO to setup folder
 4. Load into NTlite
