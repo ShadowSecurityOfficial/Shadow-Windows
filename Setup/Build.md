@@ -1,9 +1,9 @@
 # How to build Shadow-Windows?
 
-1. Git clone our repository to your C:\Users\Public\Desktop directory
-2. Grab latest AtlasOS (Security Updates ISO) and put in setup folder
+1. Git clone our repository to your preferred directory
+2. Grab latest AtlasOS (Security Updates ISO) and put in our repository directory
 3. Extract AtlasOS ISO to setup folder
-4. Load into NTlite
+4. Download and Load into NTlite
 5. Add extracted AtlasOS directory
 6. Convert install.esd to install.wim if needed
 7. Load install.wim
