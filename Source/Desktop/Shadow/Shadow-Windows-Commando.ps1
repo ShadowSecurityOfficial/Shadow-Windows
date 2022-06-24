@@ -12,6 +12,7 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
 
 Invoke-WebRequest https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe -o git.exe
 Start-Process .\git.exe /SILENT -NoNewWindow -Wait
+Remove-Item .\flare-vm -Recurse
 git clone https://github.com/mandiant/commando-vm.git
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
