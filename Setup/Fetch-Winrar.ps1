@@ -1,1 +1,1 @@
-Invoke-WebRequest https://www.rarlab.com/rar/winrar-x64-611.exe
+Invoke-WebRequest https://www.rarlab.com/rar/winrar-x64-611.exe -o winrar.exe
