@@ -25,7 +25,8 @@ https://www.vmware.com/products/workstation-pro.html
 https://www.parallels.com/products/desktop/
 https://www.virtualbox.org/
 https://code.visualstudio.com/
-https://pixabay.com/
+https://git-scm.com/
+https://github.com/namazso/OpenHashTab
 ```
 # Requesting a feature
 
