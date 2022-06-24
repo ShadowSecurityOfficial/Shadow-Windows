@@ -10,4 +10,4 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30   
 }
 
-Invoke-WebRequest https://downloads.ntlite.com/files/NTLite_setup_x64.exe -o NTlite.exe
+Invoke-WebRequest https://downloads.ntlite.com/files/NTLite_setup_x64.exe -o ntlite.exe
