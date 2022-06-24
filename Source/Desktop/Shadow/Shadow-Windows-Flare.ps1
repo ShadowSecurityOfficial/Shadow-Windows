@@ -16,7 +16,7 @@ Remove-Item .\flare-vm -Recurse -Force
 git clone https://github.com/mandiant/flare-vm.git
 cd flare-vm
 Unblock-File .\flare-vm\install.ps1
-Set-ExecutionPolicy Unrestricted -f
+Set-ExecutionPolicy Unrestricted -f -Quiet
 & .\flare-vm\install.ps1
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
