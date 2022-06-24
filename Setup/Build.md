@@ -14,7 +14,6 @@
 ```
 - Source/Web >> %temp%\NLTmpMount01\Windows\Web (Delete the existing folder first!)
 - Source/Desktop/Shadow >> %temp%\NLTmpMount01\Users\Default\Desktop\Shadow
-- Shadow-Windows.bat >> %temp%\NLTmpMount01\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\Shadow-Windows.bat
 ```
 
 11. Hit apply and create ISO
