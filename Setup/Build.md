@@ -13,8 +13,8 @@ First make sure you are connected to the internet.
 8. (Put the files in the source folder to the necessary directories) make sure you have display hidden folders setting on:
 
 ```
-- Source/Web >> %temp%\NLTmpMount01\Windows\Web (Delete the existing folder first!)
-- Source/Desktop/Shadow >> %temp%\NLTmpMount01\Users\Default\Desktop\Shadow
+- Source/Web >> %temp%\NLTmpMnt01\Windows\Web (Delete the existing folder first!)
+- Source/Desktop/Shadow >> %temp%\NLTmpMnt01\Users\Default\Desktop\Shadow
 ```
 
 9. Hit apply and create ISO
