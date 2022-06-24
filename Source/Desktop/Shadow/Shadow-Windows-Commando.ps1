@@ -17,3 +17,6 @@ cd commando-vm
 Unblock-File .\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 .\install.ps1
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d \Windows\Web\Wallpaper.jpg /f
+Start-Sleep -s 10
+rundll32.exe user32.dll, UpdatePerUserSystemParameters, 0, $false
