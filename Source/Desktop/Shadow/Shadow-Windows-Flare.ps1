@@ -17,7 +17,7 @@ git clone https://github.com/mandiant/flare-vm.git
 cd flare-vm
 Unblock-File .\flare-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-Start-Process .\flare-vm\install.ps1 -NoNewWindow -Wait
+& .\flare-vm\install.ps1
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
 $code = @' 
