@@ -17,6 +17,22 @@ cd commando-vm
 Unblock-File .\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 .\install.ps1
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d \Windows\Web\Wallpaper.jpg /f
-Start-Sleep -s 10
-rundll32.exe user32.dll, UpdatePerUserSystemParameters, 0, $false
+
+$MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
+$code = @' 
+using System.Runtime.InteropServices; 
+namespace Win32{ 
+    
+     public class Wallpaper{ 
+        [DllImport("user32.dll", CharSet=CharSet.Auto)] 
+         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
+         
+         public static void SetWallpaper(string thePath){ 
+            SystemParametersInfo(20,0,thePath,3); 
+         }
+    }
+ } 
+'@
+
+add-type $code 
+[Win32.Wallpaper]::SetWallpaper($MyWallpaper)
