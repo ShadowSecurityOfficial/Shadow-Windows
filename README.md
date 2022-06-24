@@ -18,6 +18,8 @@ https://gparted.org/
 https://atlasos.net/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
+https://git-scm.com/
+https://github.com/namazso/OpenHashTab
 https://rufus.ie/
 https://www.balena.io/etcher/
 https://www.gitkraken.com/
@@ -25,8 +27,6 @@ https://www.vmware.com/products/workstation-pro.html
 https://www.parallels.com/products/desktop/
 https://www.virtualbox.org/
 https://code.visualstudio.com/
-https://git-scm.com/
-https://github.com/namazso/OpenHashTab
 ```
 # Requesting a feature
 
