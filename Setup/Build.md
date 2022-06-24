@@ -15,6 +15,7 @@ First make sure you are connected to the internet.
 ```
 - Source/Web >> %temp%\NLTmpMnt01\Windows\Web (Delete the existing folder first!)
 - Source/Desktop/Shadow >> %temp%\NLTmpMnt01\Users\Default\Desktop\Shadow
+- Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\Shadow-Windows.ps1
 ```
 
 9. Hit apply and create ISO
