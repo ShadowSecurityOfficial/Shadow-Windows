@@ -25,4 +25,4 @@ For those of you wondering why I do not have a CI/CD process for Shadow-Windows 
 
 NTlite does not allow CLI input and is a GUI only program, for this reason I cannot use NTlite in a CI/CD process
 
-(After downloading any tool used in the build process I suggest you verify the checksum to make sure the file is not corrupted or tampered.)
+(After downloading any tool used in the build process I suggest you verify the checksum with OpenHashTab to make sure the file is not corrupted or tampered.)
