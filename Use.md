@@ -4,4 +4,4 @@ Boot into ISO and install, after install connect to the internet tnd use snappy 
 
 Commando Or Flare
 
-Run the script accordingly and enjoy your ethical hacking windows environment
+Run the poweshell script you choose accordingly and enjoy your ethical hacking windows environment.
