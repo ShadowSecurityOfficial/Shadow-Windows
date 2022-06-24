@@ -5,7 +5,7 @@ if (-Not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     }
 }
 
-while (-not (Test-Connection 8.8.8.8 -Count 1)) {
+while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30
 }
 
