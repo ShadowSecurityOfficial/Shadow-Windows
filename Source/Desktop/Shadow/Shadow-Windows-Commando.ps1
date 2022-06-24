@@ -15,7 +15,7 @@ Start-Process .\git.exe /SILENT -NoNewWindow -Wait
 Remove-Item .\flare-vm -Recurse -Force
 git clone https://github.com/mandiant/commando-vm.git
 Unblock-File .\commando-vm\install.ps1
-Set-ExecutionPolicy Unrestricted -f -Quiet
+Set-ExecutionPolicy Unrestricted -f
 & .\commando-vm\install.ps1
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
