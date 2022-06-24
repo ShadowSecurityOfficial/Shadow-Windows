@@ -10,6 +10,8 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30   
 }
 
+$ErrorActionPreference = 'SilentlyContinue'
+
 Invoke-WebRequest https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe -o git.exe
 Start-Process .\git.exe /SILENT -NoNewWindow -Wait
 Remove-Item .\flare-vm -Recurse -Force
