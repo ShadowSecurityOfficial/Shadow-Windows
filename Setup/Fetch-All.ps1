@@ -15,3 +15,4 @@ Invoke-WebRequest https://www.rarlab.com/rar/winrar-x64-611.exe -o winrar.exe
 Invoke-WebRequest https://www.7-zip.org/a/7z2200-x64.exe -o 7zip.exe
 Invoke-WebRequest https://github.com/Atlas-OS/atlas-releases/releases/download/20H2-v0.5.2/Atlas_v0.5.2_Faceit_Edition.iso -o atlas.iso
 Invoke-WebRequest https://downloads.ntlite.com/files/NTLite_setup_x64.exe -o ntlite.exe
+Invoke-WebRequest https://github.com/namazso/OpenHashTab/releases/download/v3.0.2/OpenHashTab_setup.exe -o openhashtab.exe
