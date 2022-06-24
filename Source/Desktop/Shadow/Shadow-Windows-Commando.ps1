@@ -14,9 +14,9 @@ Invoke-WebRequest https://github.com/git-for-windows/git/releases/download/v2.36
 Start-Process .\git.exe /SILENT -NoNewWindow -Wait
 git clone https://github.com/mandiant/commando-vm.git
 cd commando-vm
-Unblock-File .\install.ps1
+Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-Start-Process .\install.ps1 -NoNewWindow -Wait
+Start-Process .\flare-vm\install.ps1 -NoNewWindow -Wait
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
 $code = @' 
