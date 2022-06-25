@@ -17,6 +17,7 @@ https://www.7-zip.org/
 https://gparted.org/
 https://atlasos.net/
 https://chocolatey.org/
+https://docs.microsoft.com/en-us/powershell/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
 https://git-scm.com/
