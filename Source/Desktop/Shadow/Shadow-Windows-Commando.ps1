@@ -16,7 +16,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install git -y
 refreshenv
 Remove-Item .\flare-vm -Recurse -Force
-git clone https://github.com/mandiant/commando-vm.git .
+git clone https://github.com/mandiant/commando-vm.git .\flare-vm
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 & .\commando-vm\install.ps1
