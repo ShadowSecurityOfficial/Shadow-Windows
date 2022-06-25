@@ -15,8 +15,8 @@ $ErrorActionPreference = 'SilentlyContinue'
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 choco install git -y
 refreshenv
-Remove-Item .\flare-vm -Recurse -Force
-git clone https://github.com/mandiant/commando-vm.git .\flare-vm
+Remove-Item .\commando-vm -Recurse -Force
+git clone https://github.com/mandiant/commando-vm.git .\commando-vm
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 & .\commando-vm\install.ps1
