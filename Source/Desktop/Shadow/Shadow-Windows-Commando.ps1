@@ -12,10 +12,11 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
 
 $ErrorActionPreference = 'SilentlyContinue'
 
-Invoke-WebRequest https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe -o git.exe
-Start-Process .\git.exe /SILENT -NoNewWindow -Wait
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco install git -y
+refreshenv
 Remove-Item .\flare-vm -Recurse -Force
-%HomeDrive%\Program Files\Git\git-cmd.exe clone https://github.com/mandiant/commando-vm.git .
+git clone https://github.com/mandiant/commando-vm.git .
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 & .\commando-vm\install.ps1
