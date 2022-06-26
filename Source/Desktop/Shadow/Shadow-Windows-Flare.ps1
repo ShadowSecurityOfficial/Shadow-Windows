@@ -20,7 +20,7 @@ git clone https://github.com/mandiant/flare-vm.git .\flare-vm
 cd flare-vm
 Unblock-File .\flare-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-& .\flare-vm\install.ps1
+& powershell.exe -NoProfile -Command ".\flare-vm\install.ps1" -nochecks '$True'
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
 $code = @' 
