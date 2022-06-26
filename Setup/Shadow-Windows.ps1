@@ -23,5 +23,3 @@ namespace Win32{
 
 add-type $code 
 [Win32.Wallpaper]::SetWallpaper($MyWallpaper)
-
-Remove-Item $PSCommandPath -Force
