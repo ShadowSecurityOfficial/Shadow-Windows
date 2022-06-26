@@ -16,6 +16,7 @@ First make sure you are connected to the internet.
 - Source/Web >> %temp%\NLTmpMnt01\Windows\Web (Delete the existing folder first!)
 - Source/Desktop/Shadow >> %temp%\NLTmpMnt01\Users\Default\Desktop\Shadow
 - Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Shadow-Windows.ps1
+- Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Shadow-Windows.bat
 
 Next: inside %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\Atlas.bat, make sure to find the success step and press enter to get text under the success step and put: PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '%HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Shadow-Windows.ps1'" on the first line of the success step, then save the file.
 ```
