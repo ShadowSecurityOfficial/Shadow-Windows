@@ -17,7 +17,6 @@ https://www.7-zip.org/
 https://gparted.org/
 https://atlasos.net/
 https://chocolatey.org/
-https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1 (Powershell 5.1)
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
 https://git-scm.com/
