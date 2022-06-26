@@ -20,22 +20,3 @@ git clone https://github.com/mandiant/commando-vm.git .\commando-vm
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 & powershell.exe -NoProfile -Command ".\commando-vm\install.ps1" -nochecks '$True'
-
-$MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
-$code = @' 
-using System.Runtime.InteropServices; 
-namespace Win32{ 
-    
-     public class Wallpaper{ 
-        [DllImport("user32.dll", CharSet=CharSet.Auto)] 
-         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
-         
-         public static void SetWallpaper(string thePath){ 
-            SystemParametersInfo(20,0,thePath,3); 
-         }
-    }
- } 
-'@
-
-add-type $code 
-[Win32.Wallpaper]::SetWallpaper($MyWallpaper)
