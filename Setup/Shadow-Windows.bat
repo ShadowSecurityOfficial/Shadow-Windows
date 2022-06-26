@@ -1,1 +1,1 @@
-PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "& '%HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Shadow-Windows.ps1'"
+powerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "& '%HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Shadow-Windows.ps1'"
