@@ -20,23 +20,4 @@ git clone https://github.com/mandiant/flare-vm.git .\flare-vm
 cd flare-vm
 Unblock-File .\flare-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-& powershell.exe -NoProfile -Command ".\flare-vm\install.ps1" -norestart
-
-$MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
-$code = @' 
-using System.Runtime.InteropServices; 
-namespace Win32{ 
-    
-     public class Wallpaper{ 
-        [DllImport("user32.dll", CharSet=CharSet.Auto)] 
-         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
-         
-         public static void SetWallpaper(string thePath){ 
-            SystemParametersInfo(20,0,thePath,3); 
-         }
-    }
- } 
-'@
-
-add-type $code 
-[Win32.Wallpaper]::SetWallpaper($MyWallpaper)
+& powershell.exe -NoProfile -Command ".\flare-vm\install.ps1"
