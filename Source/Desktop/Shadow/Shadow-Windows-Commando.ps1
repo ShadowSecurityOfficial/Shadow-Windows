@@ -19,7 +19,7 @@ Remove-Item .\commando-vm -Recurse -Force
 git clone https://github.com/mandiant/commando-vm.git .\commando-vm
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
--NoProfile -Command & .\commando-vm\install.ps1 $nochecks = $true
+& powershell.exe -NoProfile -Command ".\commando-vm\install.ps1" -nochecks '$True'
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
 $code = @' 
