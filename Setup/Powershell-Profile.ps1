@@ -1,1 +1,1 @@
-pwsh.exe Set-Alias -Name Get-WMIObject -Value Get-CIMInstance
+pwsh.exe -NoExit -Command "Set-Alias -Name Get-WMIObject -Value Get-CIMInstance"
