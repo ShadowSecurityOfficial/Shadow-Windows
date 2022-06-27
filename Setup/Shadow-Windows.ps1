@@ -6,7 +6,7 @@ if (-Not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 New-Item -Path $Profile -Type File -Force
-Copy-Item -Path %HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Powershell-Profile.ps1 -Destination $Profile -Recurse -force
+Copy-Item -Path %HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Powershell-Profile.ps1 -Destination $Profile -Recurse -Force
 
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
 $code = @' 
