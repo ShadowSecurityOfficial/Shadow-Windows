@@ -5,3 +5,5 @@ Boot into ISO and install, after install connect to the internet and use snappy 
 Commando (Offensive Security) Or Flare (Cyber Forensics)
 
 Run the poweshell script you chose accordingly, reboot after it is done, and you are all set to work inside windows. 
+
+(Make sure to do any system operations like installing a package, uninstalling a package, or updating inside powershell-core)
