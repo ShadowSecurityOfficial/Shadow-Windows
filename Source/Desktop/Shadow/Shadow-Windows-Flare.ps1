@@ -20,4 +20,5 @@ Remove-Item .\flare-vm -Recurse -Force
 git clone https://github.com/mandiant/flare-vm.git .\flare-vm
 Unblock-File .\flare-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-& powershell.exe -NoProfile -Command ".\flare-vm\install.ps1"
+Set-Alias -Name Get-WMIObject -Value Get-CIMInstance
+& pwsh.exe -NoProfile -Command ".\flare-vm\install.ps1"
