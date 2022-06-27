@@ -20,4 +20,5 @@ Remove-Item .\commando-vm -Recurse -Force
 git clone https://github.com/mandiant/commando-vm.git .\commando-vm
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-& powershell.exe -NoProfile -Command ".\commando-vm\install.ps1" -nochecks '$True'
+Set-Alias -Name Get-WMIObject -Value Get-CIMInstance
+& pwsh.exe -NoProfile -Command ".\commando-vm\install.ps1"
