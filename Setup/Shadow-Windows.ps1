@@ -26,4 +26,4 @@ namespace Win32{
 add-type $code 
 [Win32.Wallpaper]::SetWallpaper($MyWallpaper)
 
-choco; New-Item -Path $Profile -Type File -Force; Copy-Item -Path %HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Powershell-Profile.ps1 -Destination $Profile -Recurse -Force
+choco; New-Item -Path $Profile -Type File -Force -Value "pwsh.exe -NoExit -Command 'Set-Alias -Name Get-WMIObject -Value Get-CIMInstance'"
