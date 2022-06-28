@@ -3,7 +3,7 @@
 First make sure you are connected to the internet.
 
 1. Git clone our repository to your preferred directory (Script to download Git Portable included in directory)
-2. Grab latest AtlasOS (Security Updates ISO) and put in our repository directory (You can grab it using the script in Setup directory if you prefer)
+2. Grab latest AtlasOS (1803 ISO) and put in our repository directory (You can grab it using the script in Setup directory if you prefer)
 3. Extract AtlasOS ISO to setup folder using Winrar or 7-zip (Script included to download the installer for these utilities in the Setup folder)
 4. Download and Load into NTlite (Script to download NTlite installer included in directory)
 5. Add extracted AtlasOS directory
