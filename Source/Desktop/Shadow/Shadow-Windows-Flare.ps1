@@ -20,4 +20,4 @@ Remove-Item .\flare-vm -Recurse -Force
 git clone https://github.com/mandiant/flare-vm.git .\flare-vm
 Unblock-File .\flare-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-& pwsh.exe -NoProfile -Command "Set-Alias -Name Get-WMIObject -Value Get-CIMInstance && .\flare-vm\install.ps1"
+& pwsh.exe -NoProfile -Command "Set-Alias -Name Get-WMIObject -Value Get-CIMInstance; .\flare-vm\install.ps1"
