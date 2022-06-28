@@ -15,7 +15,6 @@ First make sure you are connected to the internet.
 ```
 - Source/Web >> %temp%\NLTmpMnt01\Windows\Web (Delete the existing folder first!)
 - Source/Desktop/Shadow >> %temp%\NLTmpMnt01\Users\Default\Desktop\Shadow
-- Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Powershell-Profile.ps1
 - Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Shadow-Windows.ps1
 - Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Shadow-Windows.bat
 
