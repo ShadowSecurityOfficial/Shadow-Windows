@@ -5,6 +5,8 @@ if (-Not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     }
 }
 
+$ErrorActionPreference = 'SilentlyContinue'
+
 $MyWallpaper="%HomeDrive%\Windows\Web\Wallpaper.jpg"
 $code = @' 
 using System.Runtime.InteropServices; 
