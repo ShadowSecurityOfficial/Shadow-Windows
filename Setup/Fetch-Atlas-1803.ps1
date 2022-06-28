@@ -10,4 +10,4 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30   
 }
 
-Invoke-WebRequest https://github.com/Atlas-OS/atlas-releases/releases/download/1803/Atlas_1803_v0.2.iso -o atlas.iso
+Invoke-WebRequest https://github.com/Atlas-OS/atlas-releases/releases/download/1803/Atlas_1803_v0.2.iso -o atlas1803.iso
