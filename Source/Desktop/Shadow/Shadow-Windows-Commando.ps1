@@ -20,4 +20,4 @@ Remove-Item .\commando-vm -Recurse -Force
 git clone https://github.com/mandiant/commando-vm.git .\commando-vm
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
-& pwsh.exe -NoProfile -Command "Set-Alias -Name Get-WMIObject -Value Get-CIMInstance && .\commando-vm\install.ps1"
+& pwsh.exe -NoProfile -Command "Set-Alias -Name Get-WMIObject -Value Get-CIMInstance && .\commando-vm\install.ps1 -profile_file .\commando-vm\Profiles\full.json"
