@@ -26,4 +26,5 @@ namespace Win32{
 add-type $code 
 [Win32.Wallpaper]::SetWallpaper($MyWallpaper)
 
-choco; New-Item -Path $Profile -Type File -Force -Value "pwsh.exe -NoExit -Command 'Set-Alias -Name Get-WMIObject -Value Get-CIMInstance'"
+choco; New-Item -Path $Profile -Type File -Force -Value "pwsh.exe -NoExit -Command 'Set-Alias -Name Get-WMIObject -Value Get-CIMInstance'"; Copy-Item  -Path %HomeDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\FireEyeVM.Common.psm1 -Destination %HomeDrive%\ProgramData\FEVM\FireEyeVM.Common\FireEyeVM.Common.psm1 -Recurse -Force
+
