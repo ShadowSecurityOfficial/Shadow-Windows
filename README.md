@@ -28,6 +28,10 @@ https://www.vmware.com/products/workstation-pro.html
 https://www.parallels.com/products/desktop/
 https://www.virtualbox.org/
 https://code.visualstudio.com/
+https://www.deviantart.com/ (Microsoft Windows Themes)
+https://github.com/namazso/SecureUxTheme
+https://www.stardock.com/products/groupy/
+https://github.com/microsoft/PowerToys (Microsoft Powertoys)
 ```
 # Requesting a feature
 
