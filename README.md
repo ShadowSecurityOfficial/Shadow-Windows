@@ -31,7 +31,7 @@ https://code.visualstudio.com/
 https://www.deviantart.com/ (Microsoft Windows Themes)
 https://github.com/namazso/SecureUxTheme
 https://www.stardock.com/products/groupy/
-https://github.com/microsoft/PowerToys (Microsoft Powertoys)
+https://github.com/microsoft/PowerToys (Microsoft PowerToys)
 ```
 # Requesting a feature
 
