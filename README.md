@@ -16,6 +16,8 @@ https://www.rarlab.com/
 https://www.7-zip.org/
 https://gparted.org/
 https://www.youtube.com/c/GHOSTSPECTRE (GhostSpectre ISO)
+https://usa.kaspersky.com/ (Antivirus)
+https://safing.io/portmaster/ (Firewall)
 https://chocolatey.org/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
