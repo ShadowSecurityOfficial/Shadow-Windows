@@ -15,7 +15,7 @@ https://www.ntlite.com/
 https://www.rarlab.com/
 https://www.7-zip.org/
 https://gparted.org/
-https://atlasos.net/
+https://www.youtube.com/c/GHOSTSPECTRE (GhostSpectre ISO)
 https://chocolatey.org/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
