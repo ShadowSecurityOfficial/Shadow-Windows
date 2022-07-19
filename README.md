@@ -16,6 +16,7 @@ https://www.rarlab.com/
 https://www.7-zip.org/
 https://gparted.org/
 https://www.youtube.com/c/GHOSTSPECTRE (GhostSpectre ISO)
+https://www.xbitlabs.com/best-custom-windows-10-iso-for-gaming/ (Custom Windows ISO)
 https://usa.kaspersky.com/ (Antivirus)
 https://safing.io/portmaster/ (Firewall)
 https://chocolatey.org/
