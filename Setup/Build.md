@@ -3,10 +3,10 @@
 First make sure you are connected to the internet.
 
 1. Git clone our repository to your preferred directory (Script to download Git Portable included in directory)
-2. Grab latest AtlasOS (1803 ISO or 20H2 Faceit ISO) and put in our repository directory (You can grab it using the script in Setup directory if you prefer)
-3. Extract AtlasOS ISO to setup folder using Winrar or 7-zip (Script included to download the installer for these utilities in the Setup folder)
+2. Grab latest ConvinitiOS ISO and put in our repository directory (You can grab it using the script in Setup directory if you prefer)
+3. Extract ConvinitiOS ISO to setup folder using Winrar or 7-zip (Script included to download the installer for these utilities in the Setup folder)
 4. Download and Load into NTlite (Script to download NTlite installer included in directory)
-5. Add extracted AtlasOS directory
+5. Add extracted ConvinitiOS directory
 6. Convert install.esd to install.wim if needed
 7. Load install.wim
 
@@ -14,7 +14,7 @@ First make sure you are connected to the internet.
 
 ```
 - Source/Web >> %temp%\NLTmpMnt01\Windows\Web (Delete the existing folder first!)
-- Source/Desktop/Shadow >> %temp%\NLTmpMnt01\Users\Default\Desktop\Shadow
+- Source/Desktop/Shadow >> %temp%\NLTmpMnt01\Users\Administrator\Desktop\Shadow
 - Setup/FireEyeVM.Common.psm1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\FireEyeVM.Common.psm1
 - Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Shadow-Windows.ps1
 - Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Shadow-Windows.bat
