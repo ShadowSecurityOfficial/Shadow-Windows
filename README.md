@@ -15,6 +15,8 @@ https://www.ntlite.com/
 https://www.rarlab.com/
 https://www.7-zip.org/
 https://gparted.org/
+https://www.youtube.com/TheWorldOfPC
+https://www.youtube.com/c/EverythingTechTutorials
 https://convinitios.blogspot.com/ (ConvinitiOS) (Use Adblocker or if you wish vist without Adblocker to support WorldOfPC)
 https://convinitios.blogspot.com/2021/08/convinitios-custom-os-dedicated-for.html (ConvinitiOS) (Use Adblocker or if you wish vist without Adblocker to support WorldOfPC)
 https://www.youtube.com/watch?v=Y_sJIFD0MGU (ConvinitiOS)
