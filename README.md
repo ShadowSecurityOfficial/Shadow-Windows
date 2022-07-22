@@ -17,9 +17,9 @@ https://www.7-zip.org/
 https://gparted.org/
 https://www.youtube.com/TheWorldOfPC
 https://www.youtube.com/c/EverythingTechTutorials
-https://nexusliteos.blogspot.com/ (Windows 10 MacOS Big Sur Non Defender Updatable) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
-https://nexusliteos.blogspot.com/2022/02/huwzibh8ojdtmszwzs5gnhbquiadnese645nrrg.html (Windows 10 MacOS Big Sur Non Defender Updatable) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
-https://www.youtube.com/watch?v=F2mHTgQ51wY (Windows 10 MacOS Big Sur Non Defender Updatable)
+https://convinitios.blogspot.com/ (ConvinitiOS) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
+https://www.youtube.com/watch?v=Y_sJIFD0MGU (Windows 10 ConvinitiOS)
+https://convinitios.blogspot.com/2021/08/convinitios-custom-os-dedicated-for.html (Windows 10 ConvinitiOS)
 https://www.xbitlabs.com/best-custom-windows-10-iso-for-gaming/ (Custom Windows ISO Guide)
 https://chocolatey.org/
 https://pentestbox.org/
