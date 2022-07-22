@@ -17,9 +17,9 @@ https://www.7-zip.org/
 https://gparted.org/
 https://www.youtube.com/TheWorldOfPC
 https://www.youtube.com/c/EverythingTechTutorials
-https://convinitios.blogspot.com/ (ConvinitiOS) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
-https://convinitios.blogspot.com/2021/08/convinitios-custom-os-dedicated-for.html (ConvinitiOS) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
-https://www.youtube.com/watch?v=Y_sJIFD0MGU (ConvinitiOS)
+https://convinitios.blogspot.com/ (ConvinitiOS Windows 10 Pro) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
+https://convinitios.blogspot.com/2021/08/convinitios-custom-os-dedicated-for.html (ConvinitiOS Windows 10 Pro) (Use Adblocker or if you wish, vist without Adblocker to support WorldOfPC)
+https://www.youtube.com/watch?v=Y_sJIFD0MGU (ConvinitiOS Windows 10 Pro)
 https://www.xbitlabs.com/best-custom-windows-10-iso-for-gaming/ (Custom Windows ISO Guide)
 https://chocolatey.org/
 https://github.com/mandiant/commando-vm
