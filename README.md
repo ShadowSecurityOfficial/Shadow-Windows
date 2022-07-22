@@ -26,6 +26,8 @@ https://pentestbox.org/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
 https://github.com/trustedsec/ptf
+https://www.virtualbox.org/
+https://www.vagrantup.com/
 https://git-scm.com/
 https://github.com/namazso/OpenHashTab
 https://rufus.ie/
