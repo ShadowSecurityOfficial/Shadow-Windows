@@ -19,6 +19,7 @@ choco install groupy -y
 refreshenv
 Remove-Item .\commando-vm -Recurse -Force
 git clone https://github.com/mandiant/commando-vm.git .\commando-vm
+git clone https://github.com/trustedsec/ptf .\ptf
 Unblock-File .\commando-vm\install.ps1
 Set-ExecutionPolicy Unrestricted -f
 & powershell.exe -NoProfile -Command ".\commando-vm\install.ps1"
