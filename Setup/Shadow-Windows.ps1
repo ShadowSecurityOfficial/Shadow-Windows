@@ -25,5 +25,3 @@ namespace Win32{
 
 add-type $code 
 [Win32.Wallpaper]::SetWallpaper($MyWallpaper)
-
-Remove-Item -Force "C:\Windows\addins\MacOS Monetery Welcome.exe"
