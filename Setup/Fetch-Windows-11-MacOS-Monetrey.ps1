@@ -10,4 +10,4 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30   
 }
 
-Invoke-WebRequest https://bit.ly/3j8zbcK -o ConvinitiOS.iso
+Invoke-WebRequest https://bit.ly/3j8zbcK -o Windows.iso
