@@ -16,6 +16,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install git -y
 choco install powershell-core -y
 choco install powertoys -y
+choco install groupy -y
 refreshenv
 Remove-Item .\flare-vm -Recurse -Force
 git clone https://github.com/mandiant/flare-vm.git .\flare-vm
