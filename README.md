@@ -22,6 +22,7 @@ https://nexusliteos.blogspot.com/2022/02/lzjsiroqlspu7x4ahi4v7fk6rw4v.html (Wind
 https://www.youtube.com/watch?v=pSfcEpC6mjQ (Windows 11 MacOS Monetrey Non Defender)
 https://www.xbitlabs.com/best-custom-windows-10-iso-for-gaming/ (Custom Windows ISO Guide)
 https://chocolatey.org/
+https://pentestbox.org/
 https://github.com/mandiant/commando-vm
 https://github.com/mandiant/flare-vm
 https://git-scm.com/
