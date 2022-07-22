@@ -10,4 +10,4 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30   
 }
 
-Invoke-WebRequest https://server2.epubg691.workers.dev/0:/WIN10.MacOS.Big.Sur.Edition.1909.x64.[The.World.Of.PC].rar -o windows_iso_password:_WPC_BigSur.rar
+Invoke-WebRequest https://iso.convinitios.workers.dev/0:/ConvinitiOS.x64.iso -o windows.iso
