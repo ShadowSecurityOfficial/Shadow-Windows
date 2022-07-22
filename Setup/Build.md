@@ -19,7 +19,7 @@ First make sure you are connected to the internet.
 - Setup/Shadow-Windows.ps1 >> %temp%\NLTmpMnt01\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Shadow-Windows.bat
 ```
 
-9. Hit apply and create ISO (Make sure the backup log checkbox is disabled, Save the image and trim editions save mode, ESD image format compression mode.)
+9. Hit apply and create ISO (Make sure the backup log checkbox is disabled, Save the image and trim editions save mode, ESD image format compression mode, Make sure the name is Shadow-Windows.)
 
 For those of you wondering why I do not have a CI/CD process for Shadow-Windows here is why:
 
