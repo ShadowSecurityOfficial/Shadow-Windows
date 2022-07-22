@@ -10,4 +10,4 @@ while (-not (Test-Connection 8.8.8.8 -Count 1 -Quiet)) {
     Start-Sleep -Seconds 30   
 }
 
-Invoke-WebRequest https://bit.ly/3j8zbcK -o windows.iso
+Invoke-WebRequest https://wpc.epubg691.workers.dev/0:/OS/WIN11.MacOS.Monterey.Edition.x64.iso -o windows.iso
