@@ -6,4 +6,4 @@ Commando (Offensive Security) Or Flare (Cyber Forensics)
 
 Run the powershell script you chose accordingly, reboot after it is done, and you are all set to work inside windows. (If you get any errors when running the script rerun the script. it will retry and try to automatically fix the errors, the most common issue is network problems.)
 
-If you keep receiving errors I highly suggest you use (https://pentestbox.org/) which is automatically installed upon running the Shadow-Commando or Shadow-Flare script. The installation for CommandoVM and FlareVM is generally regarded as unstable.
+If you keep receiving errors I highly suggest you use (https://pentestbox.org/) which is automatically downloaded upon running the Shadow-Commando or Shadow-Flare script, all you need to do is run the .exe The installation for CommandoVM and FlareVM is generally regarded as unstable.
