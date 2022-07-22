@@ -17,6 +17,7 @@ choco install git -y
 choco install powertoys -y
 choco install groupy -y
 refreshenv
+Invoke-WebRequest https://downloads.sourceforge.net/project/pentestbox/PentestBox-with-metasploit-2.3.exe?ts=gAAAAABi2sJ6q1WQaGLdu30kXraIm-LfVbUx4XwYMrAc9ggcZVrWvwZzuiKjoBALQMgfZ1QkHiKARd3pIn3I3DfnjBEBPZi3Kw%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpentestbox%2Ffiles%2FPentestBox-with-metasploit-2.3.exe%2Fdownload -o pentestbox-with-metasploit.exe
 Remove-Item .\commando-vm -Recurse -Force
 git clone https://github.com/mandiant/commando-vm.git .\commando-vm
 git clone https://github.com/trustedsec/ptf .\ptf
